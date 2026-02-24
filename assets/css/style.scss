@@ -14,3 +14,26 @@ section {
   max-width: 95% ;
 }
 
+body {
+  background-color: #f2f2f2; /* cinza mais claro */
+  color: #000000; /* fonte preta */
+}
+
+/* ===== TEXT ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+p, li {
+  color: #000000;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  background-color: #e9e9e9; /* levemente diferente para destacar */
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #0A66C2; /* mantém azul */
+}
