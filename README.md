@@ -52,7 +52,7 @@ I am currently seeking opportunities as a Data Analyst, Data Scientist, or Quant
        width="40px" 
        style="margin-right: 10px;"/>
 </div>
-          <a href="https://github.com/LeonardoStabile1/Projeto-Analise-e-Predicao-de-Risco-de-Credito">
+          <a href="https://github.com/LeonardoStabile1/Project-Credit-Risk-Analysis-and-Prediction">
           <p>Click here to view the project</p>
         </a>
         </td>
