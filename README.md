@@ -1,3 +1,13 @@
+<div class="sidebar-links">
+  <a href="https://www.linkedin.com/in/SEU-LINK-AQUI" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+         width="22" style="vertical-align: middle; margin-right:8px;">
+    LinkedIn
+  </a>
+</div>
+
+<br>
+
 # Leonardo Pereira Stabile
 
 Sou físico pela UNICAMP, com sólida base em matemática aplicada, estatística e computação científica, e experiência prática no desenvolvimento de cálculos numéricos, simulações e análise de dados. Trabalhei com ferramentas como Python, Modern Fortran e Wolfram Mathematica para transformar dados complexos em insights claros.
