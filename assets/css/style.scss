@@ -10,31 +10,7 @@
 }
 
 section {
-  width: 900px !important;
-  float: none;/* escolha o tamanho */
-  max-width: 95% !important;
+  width: 900px;
+  max-width: 95% ;
 }
 
-/* Cor de fundo */
-body {
-  background-color: #f4f6f9 !important;  /* escolha sua cor */
-}
-
-/* Cor do texto principal */
-body, p, li {
-  color: #1a1a1a !important;
-}
-
-/* Cor dos títulos */
-h1, h2, h3, h4 {
-  color: #0a3d62 !important;
-}
-
-/* Cor dos links */
-a {
-  color: #1e90ff !important;
-}
-
-a:hover {
-  color: #0a3d62 !important;
-}
