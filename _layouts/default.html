@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.title }}</h1>
+
+        <p><strong>Data Analyst | Data Scientist</strong></p>
+        <p>Python • SQL • Power BI • Machine Learning</p>
+
+        <p>
+          <a href="https://www.linkedin.com/in/SEU-LINK-AQUI" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                 width="20" style="vertical-align:middle; margin-right:6px;">
+            LinkedIn
+          </a>
+        </p>
+
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+    </div>
+  </body>
+</html>
