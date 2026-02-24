@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Aumentar largura do site */
+.wrapper {
+  max-width: 1200px;
+  width: 95%;
+}
