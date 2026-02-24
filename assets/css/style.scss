@@ -35,9 +35,16 @@ p, li {
   color: #000000;
 }
 
-/* ===== SIDEBAR ===== */
 .sidebar {
-  background-color: #e5f4f4; /* levemente diferente para destacar */
+  background-color: #1f2933;
+  color: #ffffff;
+}
+
+.sidebar h1,
+.sidebar p,
+.sidebar li,
+.sidebar a {
+  color: #ffffff;
 }
 
 /* ===== LINKS ===== */
