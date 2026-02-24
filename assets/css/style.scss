@@ -41,23 +41,13 @@ a {
 }
 
 
-/* Black left column */
+
 body .wrapper > header {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-  padding: 25px;
-}
-
-/* Make all sidebar text white */
-body .wrapper > header h1,
-body .wrapper > header p,
-body .wrapper > header a,
-body .wrapper > header li {
-  color: #ffffff !important;
-}
-
-/* Keep links visible */
-body .wrapper > header a {
-  color: #4da3ff !important;
+  background: linear-gradient(
+    to right,
+    #baf5f5 0%,
+    #baf5f5 70%,
+    #ffffff 100%
+  ) !important;
 }
 
