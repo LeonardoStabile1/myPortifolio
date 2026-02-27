@@ -4,7 +4,7 @@ I am a Data Analyst and Data Scientist with a strong background in statistical m
 
 My academic background in Physics provided a solid foundation in applied mathematics, statistics, and scientific computing, which I leverage to design robust analytical solutions. I have hands-on experience developing numerical models, simulations, and end-to-end data workflows using tools such as Python, SQL, Modern Fortran, and Wolfram Mathematica.
 
-I am currently seeking opportunities as a Data Analyst, Data Scientist, or Quantitative Analyst, where I can apply analytical rigor and modeling expertise to generate measurable business impact.
+I am currently seeking opportunities as a Data Scientist or Data Engineer, where I can apply analytical rigor and modeling expertise to generate solutions and measurable business impact.
 
 # Explore My Projects Below
 
