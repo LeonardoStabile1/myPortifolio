@@ -1,6 +1,6 @@
 # Welcome to my Data Portifolio
 
-I am a Data Analyst and Data Scientist with a strong background in statistical modeling, data analysis, and computational problem-solving. I specialize in transforming complex datasets into actionable insights that support strategic and data-driven decision-making.
+I am a Data Scientist and Data Engineer with a strong background in statistical modeling, data analysis, and computational problem-solving. I specialize in transforming complex datasets into actionable insights that support strategic and data-driven decision-making.
 
 My academic background in Physics provided a solid foundation in applied mathematics, statistics, and scientific computing, which I leverage to design robust analytical solutions. I have hands-on experience developing numerical models, simulations, and end-to-end data workflows using tools such as Python, SQL, Modern Fortran, and Wolfram Mathematica.
 
