@@ -1,4 +1,4 @@
 ---
-title: "Leonardo Stabile | Data Analyst & Data Scientist"
+title: "Leonardo Stabile |  Data Scientist & Data Engineer"
 ---
 {% include_relative README.md %}
