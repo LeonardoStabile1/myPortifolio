@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Stabile - Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="perfil-container">
+        <h1>Leonardo Stabile</h1>
+        <h2>Junior Data Scientist</h2>
+        <p>Designing data pipelines, machine learning models, and analytical workflows that turn complex data into actionable insights.</p>
+        <div class="links-sociais">
+            <a href="https://github.com/LeonardoStabile1/" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/leonardo-stabile-24b4b7335" target="_blank">LinkedIn</a>
+            <a href="mailto:leonpstabile@gmail.com">Contact</a>
+        </div>
+    </header>
+
+    <h3 class="titulo-secao">
+        Tech Stack:
+    </h3>
+            <div class="stack">
+            <span class="each_stack" data-nome="Python">
+                <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Scikit-Learn">
+                <img alt="Scikit-Learn" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-without-subtitle.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Matplotlib">
+                <img alt="Matplotlib" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Pandas">
+                <img alt="Pandas" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="SQL Server">
+                <img alt="SQL Server" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
+            </span> 
+
+            <span class="each_stack" data-nome="MySQL">
+                <img alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+            </span> 
+
+            <span class="each_stack" data-nome="C#">
+                <img alt="Csharp" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Excel">
+                <img alt="Excel" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Power BI">
+                <img alt="Power BI" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" />
+            </span>
+
+            <span class="each_stack" data-nome="Modern Fortran">
+                <img alt="Fortran" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fortran/fortran-original.svg" />
+            </span> 
+        </div>
+        
+
+    <main class="projetos-container">
+        <h3 class="titulo-secao">My Projects</h3>
+
+<!--   <div class="filtros">
+        <button onclick="filtrarProjetos('all')">All</button>
+        <button onclick="filtrarProjetos('data-science')">Data Science</button>
+        <button onclick="filtrarProjetos('data-engineering')">Data Engineering</button>
+        <button onclick="filtrarProjetos('data-analysis')">Data Analysis</button>
+    </div>-->
+<div class="grid-projetos">
+
+    <article class="cartao-projeto" data-tags="data-science">
+        <div class="tags"><span>Data Science</span></div>
+        <h4>Laptop Price Estimation</h4>
+                    
+        <ul class="descricao-projeto">
+            <li>Built a production-style machine learning pipeline to predict laptop prices from hardware specifications.</li>
+            <li>Trained and optimized Random Forest and XGBoost models using RandomizedSearchCV, achieving an RMSE of $195 on unseen test data.</li>
+            <li>Designed a modular and reproducible architecture with custom transformers, pipelines, and a serialized model for independent predictions.</li>
+        </ul>
+
+        <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-Learn</span>
+            <span>XGBoost</span>
+        </div>
+
+        <a href="https://github.com/LeonardoStabile1/Laptop_Price_Estimator" class="btn-projeto" target="_blank">
+            See Project Repository (GitHub)
+        </a>
+    </article>
+            
+
+    <article class="cartao-projeto" data-tags="data-science">
+        <div class="tags"><span>Data Science</span></div>
+        <h4>Credit Risk Analysis and Prediction</h4>
+
+        <ul class="descricao-projeto">
+            <li>Conducted a complete pipeline for credit risk modeling in a dataset with strong class imbalance.</li>
+            <li>Performed exploratory data analysis (EDA) and outlier treatment to identify predictive variables for default risk.</li>
+            <li>Developed and compared machine learning models for binary classification using Precision, Recall and F1-Score.</li>
+        </ul>
+
+        <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-Learn</span>
+        </div>
+
+        <a href="https://github.com/LeonardoStabile1/Project-Credit-Risk-Analysis-and-Prediction" class="btn-projeto" target="_blank">
+            See Project Repository (GitHub)
+        </a>
+    </article>
+
+</div>
+
+           
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Leonardo Stabile</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
