@@ -164,10 +164,18 @@ line-height:1.6;
 }
 
 
-.grid-projetos {
+/* Container dos projetos */
+.grid-projetos, .projetos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Força exatamente 2 colunas de tamanhos iguais */
+    gap: 30px; /* Define o espaçamento entre os cartões */
+}
+
+/* Responsividade: Volta para 1 cartão por linha em telas menores (celulares) */
+@media (max-width: 768px) {
+    .grid-projetos, .projetos-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 
