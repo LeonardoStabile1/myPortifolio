@@ -98,9 +98,9 @@
                 <img alt="Databricks" src="https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg"/>
             </span>
 
-            <!--<span class="each_stack" data-nome="AWS">
+            <span class="each_stack" data-nome="AWS">
                 <img alt="AWS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"/>
-            </span>-->
+            </span>
 
             <span class="each_stack" data-nome="Docker">
                 <img alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"/>
@@ -129,6 +129,30 @@
         <button onclick="filtrarProjetos('data-analysis')">Data Analysis</button>
     </div>
 <div class="grid-projetos">
+
+        <article class="cartao-projeto" data-tags="data-engineering">
+        <div class="tags"><span>Data Engineering</span></div>
+        <h4>Data Lakehouse: NYC Property Sales</h4>
+                    
+<ul class="descricao-projeto">
+    <li>Designed and implemented a scalable Delta Lakehouse architecture, consolidating fragmented NYC real estate datasets into a curated, analytics-ready single source to support market trend analysis and investment decision-making.</li>
+    <li>Developed PySpark pipelines in Databricks for data ingestion, cleansing, and transformation, improving data quality, enforcing schema consistency, and enabling reliable downstream BI consumption.</li>
+    <li>Modeled a high-performance Snowflake schema in the Gold layer (AWS S3 + Unity Catalog), optimizing fact/dimension structures to reduce query latency and support self-service analytics.</li>
+    <li>Created curated SQL views on top of the Gold layer, providing a stable and analytics-ready layer that can be directly consumed by BI tools (e.g., Power BI), enabling self-service reporting and reducing dependency on engineering teams.</li>
+</ul>
+        <div class="tags">
+            <span>Python</span>
+            <span>PySpark</span>
+            <span>Databricks</span>
+            <span>AWS S3</span>
+            <span>Delta Lake</span>
+            <span>SQL</span>
+        </div>
+
+        <a href="https://github.com/LeonardoStabile1/DeltaLakehouse---NYC--Property-Sales" class="btn-projeto" target="_blank">
+            See Project Repository (GitHub)
+        </a>
+    </article>
 
     <article class="cartao-projeto" data-tags="data-science">
         <div class="tags"><span>Data Science</span></div>
