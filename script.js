@@ -16,3 +16,15 @@ function filtrarProjetos(tag){
     });
 
 }
+
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.perfil-container');
+    const navbar = document.getElementById('navbar');
+    
+    // Se a rolagem (scrollY) for maior que a altura do cabeçalho, transforma a barra
+    if (window.scrollY > header.offsetHeight) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
