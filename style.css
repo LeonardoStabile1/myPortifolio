@@ -67,19 +67,45 @@ h1, h2, h3, h4 {
     font-size: 1.05rem;
 }
 
-/* --- LINKS SOCIAIS FIXOS --- */
+/* --- LINKS SOCIAIS (INICIAL E AO ROLAR) --- */
 .links-sociais {
     position: sticky;
     top: 0;
     z-index: 1000;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centraliza os links no início */
+    align-items: center;
     background: var(--bg-header);
-    padding: 15px 0;
+    padding: 15px 20px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease; /* Animação suave na transformação */
 }
 
-.links-sociais a {
+/* Esconde a logo por padrão */
+.nav-logo {
+    display: none; 
+    flex-direction: column;
+}
+
+.nome-logo {
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.cargo-logo {
+    color: #94a3b8;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
     display: inline-block;
     margin: 0 10px;
     color: #ffffff;
@@ -93,10 +119,40 @@ h1, h2, h3, h4 {
     transition: all 0.3s ease;
 }
 
-.links-sociais a:hover {
+.nav-links a:hover {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     transform: translateY(-2px);
+}
+
+/* --- ESTADO "SCROLLED" (Quando o header some e a barra transforma) --- */
+.links-sociais.scrolled {
+    justify-content: space-between; /* Joga a logo pra esquerda e links pra direita */
+    padding: 15px 50px; /* Alarga as margens laterais */
+    background: rgba(15, 23, 42, 0.90); /* Vidro fosco */
+    backdrop-filter: blur(12px);
+}
+
+.links-sociais.scrolled .nav-logo {
+    display: flex; /* Revela a logo */
+    animation: fadeInLogo 0.5s ease forwards;
+}
+
+@keyframes fadeInLogo {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Responsividade da barra transformada */
+@media (max-width: 768px) {
+    .links-sociais.scrolled {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+    .links-sociais.scrolled .nav-logo {
+        align-items: center;
+    }
 }
 
 /* --- SEÇÃO DE HABILIDADES (SKILL CARDS) --- */
