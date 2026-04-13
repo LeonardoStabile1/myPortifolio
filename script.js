@@ -1,30 +1,16 @@
-function filtrarProjetos(tag){
+document.addEventListener("DOMContentLoaded", () => {
+    // Lógica para animar os elementos surgindo na tela
+    const observerElements = document.querySelectorAll('.fade-in');
 
-    const projetos = document.querySelectorAll(".cartao-projeto");
-
-    projetos.forEach(projeto => {
-
-        const tags = projeto.dataset.tags;
-
-        if(tag === "all" || tags.includes(tag)){
-            projeto.style.display = "block";
-        }
-        else{
-            projeto.style.display = "none";
-        }
-
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {
+        threshold: 0.1 
     });
 
-}
-
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('.perfil-container');
-    const navbar = document.getElementById('navbar');
-    
-    // Se a rolagem (scrollY) for maior que a altura do cabeçalho, transforma a barra
-    if (window.scrollY > header.offsetHeight) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
+    observerElements.forEach(el => observer.observe(el));
 });
